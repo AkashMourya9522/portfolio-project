@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.darkMode{
+    background-color: black;
+    color: white;
+}
+.darkMode-button{
+    background-color: white;
+    color: black;
+}
+
+.darkMode-a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition-property: all;
+    transition-duration: 400ms;
+    
+}
+
+a:hover{
+    color: crimson;
+    text-decoration-line: underline;
+    
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border: none;
+    min-height: 3vw;
+    min-width:  6vw;
+    border-radius: 30px;
+    transition: all 700ms ease;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.main{
+    width: 100%;
+}
+
+.website-nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5vw;
+    font-size: 1.5vw;
+}
+
+.nav-name{
+    font-weight: bold;
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    gap: 3vw;
+}
+
+.website-nav ul{
+    display: flex;
+    gap: 2vw;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7vw;
+    height: 84vh;
+}
+.profile-img-div,.about-section-img-div{
+    background-color: orange;
+    border-radius: 20%;
+    height: 25vw;
+}
+.profile-img-div img, .about-section-img-div img{
+    border-radius: 20%;
+}
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vw;
+}
+.profile-details-img-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-details-img-div img{
+    cursor: pointer;
+}
+
+.profile-button-div{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.about-section{
+    height: 100vh;
+    padding: 5vw;
+}
+.about-section-details{
+    display: flex;
+    margin-top: 6vw;
+    gap: 12vw;
+}
+
+.about-section-box-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-section-box1{
+    border: 2px solid rgb(163,163,163);
+    width: 45%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1.5vw;
+}
+.about-section-right-part{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.experience-section{
+    height: 100vh;
+}
+
+.experience-section-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3vw;
+    column-gap: 4vw;
+    padding: 4vw;
+    border-radius: 15px;
+    
+}
+
+.experience-section-box-div{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience-box{
+    border: 2px solid #C8C8C8;
+    border-radius: 15px;
+    padding: 2vw;
+}
+
+.projects-section{
+    height: 100vh;
+    padding: 2vw;
+}
+.projects-section-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2vw;
+    border: 2px solid #C8C8C8;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.projects-section-card:hover{
+    transform: scale(1.05);
+}
+
+.projects-section-card img{
+    border-radius: 10px;
+}
+
+.projects-section-card-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+
+.projects-section-card{
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.projects-section-card-div:hover{
+    transform: scale(25px);
+}
+
+footer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.details-div{
+    width: 50%;
+    border: 2px solid #C8C8C8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-div{
+    display: flex;
+    gap: 1vw;
+    padding: 3vw;
+}
+
+form{
+    height: 25vw;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #C8C8C8;
+    border-radius: 15px;
+    padding: 25px;
+}
+form input,form textarea{
+    width: 40vw;
+    height: 2.5vw;
+    border: 1px solid #C8C8C8;
+    border-radius: 5px;
+    padding: 10px;
+}
+form input:focus,form textarea:focus{
+    outline: none;
+}
+form textarea{
+    height: 10vw;
+}
+form button{
+    width: 50%;
+}

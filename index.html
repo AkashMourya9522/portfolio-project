@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Akash's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body class="js-body-ele">
+    <div class="main">
+        <nav class="website-nav">
+            <div class="nav-name">Akash Mourya
+                <button class="theme-button" onclick="themeFunction()" >Dark Mode</button>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="profile">
+            <div class="profile-img-div">
+                <img src="./images/profile-img.jpg" width="100%" height="100%" alt="">
+            </div>
+            <div class="profile-details">
+                <p>Hello, I'm</p>
+                <h1>Akash Mourya</h1>
+                <h2>An Aspiring Web Developer</h2>
+                <div class="profile-button-div">
+                    <button onclick="window.open('./sample-resume.pdf')" >My Resume</button>
+                    <button onclick="window.location.href='https://github.com/AkashMourya9522'">Github</button>
+                </div>
+                <div class="profile-details-img-div">
+                    <img src="./images/github_bright-removebg-preview.png" onclick="window.location.href='https://github.com/AkashMourya9522'" height="50vw" width="50vw"  alt="">
+                    <img src="./images/linkedin.png" onclick="window.location.href='https://www.linkedin.com/in/akash-mourya-03a050314/'" height="50vw" width="50vw" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="about-section" id="about">
+           <h1 style="text-align: center;">About Me</h1>
+           <div class="about-section-details">
+            <div class="about-section-img-div">
+                <img src="./images/profile-img.jpg" width="100%" height="100%" alt="">
+            </div>
+            <div class="about-section-right-part">
+                <div class="about-section-box-div">
+                    <div class="about-section-box1">
+                        <img src="./images/experience.png" height="40vw" width="40vw" alt="">
+                        <p style="font-weight: 500;">My experience</p>
+                        <p>Still Learning to </p>
+                        <p>Build Websites</p>
+                    </div>
+                    <div class="about-section-box1">
+                        <img src="./images/education.png" height="40vw" width="40vw" alt="">
+                        <p style="font-weight: 500;">Education</p>
+                        <p>Pursuing a Bacheleor's degree in</p>
+                        <p>Computer Science and Engineering</p>
+                    </div>
+                </div>
+                <div>
+                    A dedicated student pursuing a Bachelor's degree in Computer Science, excelling in programming, algorithms, and software development. Passionate about technology and innovation, they aim to leverage their skills to solve real-world problems and contribute to the advancement of the tech industry.
+                </div>
+            </div>
+           </div>
+        </div>
+        <div class="experience-section" id="experience">
+            <h1 style="text-align: center;">Tech Stacks I am Familiar With</h1>
+            <div class="experience-section-box-div">
+                <div class="experience-box">
+                    <h2 style="text-align: center;">Frontend</h2>
+                    <div class="experience-section-grid">
+                       <div>
+                        <h3>HTML</h3>
+                        <p>Basic</p>
+                       </div>
+                       <div>
+                        <h3>CSS</h3>
+                        <p>Basic</p>
+                       </div>
+                       <div>
+                        <h3>Javascript</h3>
+                        <p>Basic</p>
+                       </div>
+                       <div>
+                        <h3>Tailwind</h3>
+                        <p>Basic</p>
+                       </div>
+                       <div>
+                        <h3>React</h3>
+                        <p>Basic</p>
+                       </div>
+                    </div>
+                    </div>
+
+                    <div class="experience-box">
+                    <h2 style="text-align: center;">Backend</h2>
+                    <div class="experience-section-grid">
+                        <div>
+                         <h3>Nodejs</h3>
+                         <p>Basic</p>
+                        </div>
+                        <div>
+                         <h3>Expressjs</h3>
+                         <p>Basic</p>
+                        </div>
+                        <div>
+                         <h3>MongoDB</h3>
+                         <p>Basic</p>
+                        </div>
+                        <div>
+                         <h3>MYSQL</h3>
+                         <p>Basic</p>
+                        </div>
+                        <div>
+                         
+                        </div>
+                     </div>
+                    </div>
+
+                </div>
+        </div>
+        
+            <div class="projects-section" id="project">
+                <h1 style="text-align: center;">Projects</h1>
+                <div class="projects-section-card-div">
+                <div class="projects-section-card">
+                    <img src="./images/project-1.png" height="300vw" width="300vw">
+                    <h2>First Project</h2>
+                    <div>
+                        <button>Github</button>
+                        <button>Live</button>
+                    </div>
+                </div>
+                <div class="projects-section-card">
+                    <img src="./images/project-2.png" height="300vw" width="300vw">
+                    <h2>Second Project</h2>
+                    <div>
+                        <button>Github</button>
+                        <button>Live</button>
+                    </div>
+                </div>
+                <div class="projects-section-card projects-section-card-third">
+                    <img src="./images/project-3.png" height="300vw" width="300vw">
+                    <h2>Third Project</h2>
+                    <div>
+                        <button>Github</button>
+                        <button>Live</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+        <footer id="contact">
+            <h1 style="text-align: center;" >Contact Me</h1>
+            <div class="details-div">
+                <div class="contact-div">
+                    <img src="./images/email.png" width="25vw" height="25vw" alt="">
+                    akash@gmail.com</div>
+                <div class="contact-div">
+                    <img src="./images/linkedin.png" width="25vw" height="25vw" alt="">
+                    Linked In</div>
+            </div>
+            <form id="myForm">
+                <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                <input type="text" id="email" name="email" placeholder="Enter Your Email">
+               <textarea name="comment" id="comment" placeholder="Your Thoughts Here"></textarea>
+        
+                <button>Submit</button>
+                <p class="error" id="errorMessage"></p>
+            </form>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

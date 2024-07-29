@@ -1,0 +1,178 @@
+@media (min-width:375px) and  (max-width:604px) {
+    .experience-section{
+        height: 120vh;
+    }
+}
+
+@media (max-width:600px) {
+    button{
+    height: 100%;
+    width: 30vw;
+    }
+    .profile-button-div{
+        height: 12vw;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .website-nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+        font-size: 5vw;
+        height: 25vw;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2vw;
+        height: 100vh;
+    }
+    .profile-img-div{
+        height: 30vh;
+        width: 50vw;
+    }
+    .profile-img-div img{
+        height: 100%;
+        width: 100%;
+    }
+    .profile-details{
+        height: 50%;
+    }
+    .about-section{
+        height: 120vh;
+    }
+    .about-section-details{
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+    }
+    .about-section-right-part{
+        width: 100%;
+        height: 150vw;      
+    }
+    .about-section-box-div{
+        width: 100%;
+    }
+    .about-section-img-div{
+        width: 50vw;
+        height: 50vw;
+       margin: 0 auto;
+    }
+    .experience-section-box-div{
+        flex-direction: column;
+        gap: 20vw;
+    }
+    .experience-section{
+        padding: 3vw;
+    }
+    .projects-section{
+        height: 220vh;
+    }
+    .projects-section-card-div{
+        flex-direction: column;
+        height: 95%;
+    }
+    .projects-section-card{
+        padding: 5vw;
+    }
+    .details-div{
+        flex-direction: column;
+        width: 90vw;
+    }
+    .contact-div{
+        width: 100%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 90vw;
+        height: 100vw;
+    }
+    form input, form textarea{
+        width: 80vw;
+        padding: 5vw;
+    }
+    form textarea{
+        height: 30vw;
+    }
+    form button{
+        height: 15vw;
+        width: 25vw;
+    }
+    
+}
+
+@media (min-width:799px) and (max-width:1076px) {
+    .projects-section-card-third{
+        position: relative;
+        top: 200px;
+        transform: scale(1.8);
+    }
+}
+
+@media (min-width:601px) and (max-width:1076px){
+    button{
+        padding: 10px;
+    }
+    .website-nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+        font-size: 3vh;
+        height: 20vh;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2vw;
+        height: 100vh;
+    }
+    .profile-img-div{
+        height: 250px;
+        width: 250px;
+    }
+    .profile-img-div img{
+        height: 100%;
+        width: 100%;
+    }
+    .profile-details{
+        height: 50%;
+    }
+    .about-section-img-div{
+        margin-left: 30px;
+    }
+    .about-section-details{
+        height: 500px;
+        align-items: center;
+    }
+    .about-section-right-part{
+        height: 500px;
+    }
+    .projects-section{
+        height: 220vh;
+    }
+    .projects-section-card-div{
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 20px;
+    }
+    footer .details-div{
+        flex-direction: column;
+    }
+    footer form input{
+        padding: 20px;
+    }
+    footer form {
+        height: 400px;
+    }
+    .experience-section{
+        height: 500px;
+    }
+}
+
+
+
